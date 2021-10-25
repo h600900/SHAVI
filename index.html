@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SHAVI - El bil og el båt uitleie</title>
+</head>
+
+<body>
+    <!-- <nav>
+        <a href="index.html">hjem</a> |
+        <a href="sider/biler-baater.html">biler og båter</a> |
+        <a href="sider/steder.html">utlånssteder</a> |
+        <a href="sider/om-oss.html">om oss</a> |
+        <a href="sider/medlem.html">bli medlem</a>
+    </nav> -->
+
+    <div class="nav">
+        <div class="nav-wrap">
+            <a href="index.html" id="aktiv">hjem</a>
+            <a href="sider/biler-baater.html">biler og båter</a>
+            <a href="sider/steder.html">utlånssteder</a>
+            <a href="sider/om-oss.html">om oss</a>
+            <div class="nav-right">
+                <a href="sider/medlem.html">bli medlem</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="side-wrap">
+        <br>
+        <h1 class="tittel">SHAVI</h1>
+        <p class="beskrivelse">Her kan du finne nærmeste utlånssted eller den byen du har lyst å leie i. Foreløpig har
+            vi tre utlånssteder
+            Bergen, Førde og Oslo. Du kan se hvor mange biler og båter som er tilgjengelig i hver by. For å leie må du
+            være
+            registrert som medlem og betalt årsavgift. Vi har tre ulike medlemskap. De er SHAVI Bildeling, SHAVI
+            Båtdeling
+            og SHAVI TOTAL. Hvis du har medlemsskapet TOTAL kan du leie både biler og båter. Prisen på medlemsskapet
+            avhenger av hvilket medlemsskap du vil ha. SHAVI TOTAL koster mest. Foreløpig har vi modellen Tesla Model 3
+            og
+            båter av modellen Hydrolift X-22.</p>
+        <div>
+            <a href="sider/medlem.html"><button id="bliMedlem">Bli medlem!</button></a>
+        </div>
+        <div class="finnSted">
+            <h3>Finn nærmeste utlånssted:</h3>
+            <form action="#">
+                <label for="fylke">Fylke: </label>
+                <select name="fylke" id="fylke">
+                    <option value="agder">Agder</option>
+                    <option value="innlandet">Innlandet</option>
+                    <option value="moreOgRomsdal">Møre og Romsdal</option>
+                    <option value="nordland">Nordland</option>
+                    <option value="osloFylke">Oslo</option>
+                    <option value="rogaland">Rogaland</option>
+                    <option value="tromsOgFinnmark">Troms og Finnmark</option>
+                    <option value="tronderlag">Trøndelag</option>
+                    <option value="vestfoldTelemark">Vestfold og Telemark</option>
+                    <option value="vestland">Vestland</option>
+                    <option value="viken">Viken</option>
+                </select>
+                <label for="by">By: </label>
+                <select name="by" id="by">
+                    <option value="nb">Norske byer</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Finn utlånssted">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

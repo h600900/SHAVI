@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(189, 189, 189);
+    padding: 20px 10px;
+}
+
+.nav a {
+    float: left;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    text-decoration: none;
+    margin: 12px 20px 12px 20px;
+    font-size: 20px;
+    line-height: 25px;
+    font-variant: small-caps;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav a:hover {
+    filter: brightness(0.8);
+}
+
+.nav a#aktiv {
+    filter: brightness(0.8);
+    font-weight: bold;
+}
+
+.nav-wrap {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.side-wrap {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 40px 0px 0px 40px;
+}
+
+.tittel {
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(87, 87, 87);
+}
+
+.beskrivelse {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(163, 163, 163);
+    max-width: 70%;
+}
+
+.finnSted {
+    margin-top: 60px;
+}
+
+#bliMedlem {
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    padding: 9px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+#bliMedlem:hover {
+    filter: brightness(0.8);
+}
