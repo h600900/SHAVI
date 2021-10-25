@@ -74,3 +74,45 @@ body {
 #bliMedlem:hover {
     filter: brightness(0.8);
 }
+
+
+
+/*Medlem*/
+.medlem-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+#medlem-tekst{
+    padding: 50px 30px;
+}
+
+#medlem-abonnement-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.medlemskap {
+    border: 1px solid #ccc;
+
+    width: 300px;
+    height: 600px;
+    padding: 50px;
+    
+    text-align: center;
+
+    font-size: 1.2rem;
+    
+}
+.medlem-button{
+    margin-top: 350px;
+
+    padding: 15px 50px;
+    font-size: 1rem;
+}
+
+
+#markert{
+    background-color: #cecece;
+}
