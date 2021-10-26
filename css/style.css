@@ -29,8 +29,7 @@ body {
 }
 
 .nav a#aktiv {
-    filter: brightness(0.8);
-    font-weight: bold;
+    filter: brightness(0.5);
 }
 
 .nav-wrap {
@@ -115,4 +114,35 @@ body {
 
 #markert{
     background-color: #cecece;
+}
+
+
+/*Bil/båt info*/
+.bil-baat-container {
+    display: flex;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+.bil-baat-bilde {
+    flex: 40%;
+    margin: 0;
+    margin-right: 50px;
+}
+.bil-baat-bilde img {
+    width: 100%;
+    height: auto;
+} 
+.bil-baat-info {
+    flex: 50%;
+    color: rgb(87, 87, 87);
+}
+.bil-baat-info ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+.bil-baat-info h1 {
+    font-size: 45px;
+}
+.bil-baat-info p, .bil-baat-info ul {
+    font-size: 20px;
 }
