@@ -3,6 +3,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/*nav*/
 .nav {
     overflow: hidden;
     background-color: rgb(189, 189, 189);
@@ -43,6 +45,8 @@ body {
     padding: 40px 0px 0px 40px;
 }
 
+
+/*index*/
 .tittel {
     font-size: 50px;
     font-style: italic;
@@ -58,6 +62,43 @@ body {
 
 .finnSted {
     margin-top: 60px;
+    color: rgb(87, 87, 87);
+    max-width: 285px;
+}
+.finnSted h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.finnSted select {
+    padding: 9px 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #e7e7e7;
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+.finnSted select:enabled {
+    outline: none;
+}
+.finnSted #by {
+    margin-top: 10px;
+}
+.finnSted input {
+    padding: 9px 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #e7e7e7;
+}
+.finnSted select:hover, .finnSted input:hover {
+    filter: brightness(0.8);
 }
 
 #bliMedlem {
@@ -69,6 +110,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     color: rgb(87, 87, 87);
+    background-color: #e7e7e7;
 }
 #bliMedlem:hover {
     filter: brightness(0.8);
