@@ -146,3 +146,42 @@ body {
 .bil-baat-info p, .bil-baat-info ul {
     font-size: 20px;
 }
+
+
+/*Biler og båter*/
+.bil-baat {
+    font-style: normal;
+    text-transform: uppercase;
+}
+.tabell {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.tabell:last-child {
+    margin-bottom: 100px;
+}
+.tabell td, .tabell th {
+    border: 1px solid rgb(87, 87, 87);
+    padding: 8px;
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+}
+.tabell th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+.tabell td {
+    width: 25%;
+}
+.tabell td a {
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    transition: 0.1s;
+    padding: 5px;
+    font-weight: 200;
+}
+.tabell td a:hover {
+    text-decoration: underline;
+}
