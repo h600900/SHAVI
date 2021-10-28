@@ -1,35 +1,70 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #EFEFEF;
+    
+    font-family: 'Encode Sans Expanded', sans-serif;
+
+
 }
 
 .nav {
     overflow: hidden;
-    background-color: rgb(189, 189, 189);
     padding: 20px 10px;
 }
 
 .nav a {
     float: left;
-    color: rgb(87, 87, 87);
+    color: #2A2A2A;
     text-align: center;
     text-decoration: none;
     margin: 12px 20px 12px 20px;
     font-size: 20px;
+    font-weight: 500;
     line-height: 25px;
-    font-variant: small-caps;
+    border-bottom: 1.5px solid transparent;
+
+    padding: 7px 7px 8px 7px;
+
+    transition: color .2s;
+
+
+
 }
 
 .nav-right {
+    float: right;  
+}
+
+#nav-right {
     float: right;
+    font-weight: 100;
+    color: #FF3B3F;
+    border: 1px solid #FF3B3F;
+
+}
+
+#nav-right:hover{
+    background-color: #FF3B3F;
+    color: white;
+    transition: .2s ease;
 }
 
 .nav a:hover {
-    filter: brightness(0.8);
+    color: #FF3B3F;
+    transition: .2s ease;
 }
 
 .nav a#aktiv {
-    filter: brightness(0.5);
+    color: black;
+    border-bottom: 1.5px solid #FF3B3F;
+}
+
+.nav a#aktiv:hover {
+    color: #FF3B3F;
+    transition: .2s ease;
+
 }
 
 .nav-wrap {
@@ -46,14 +81,19 @@ body {
 .tittel {
     font-size: 50px;
     font-style: italic;
-    color: rgb(87, 87, 87);
+    color: #FF3B3F;
+
+    margin-top: 55px;
 }
 
 .beskrivelse {
-    font-size: 20px;
+    font-size: 22px;
     font-style: italic;
-    color: rgb(163, 163, 163);
-    max-width: 70%;
+    color: #343434;
+    max-width: 50%;
+    
+    margin-top: -30px;
+    line-height: 30px;
 }
 
 .finnSted {
@@ -62,19 +102,57 @@ body {
 
 #bliMedlem {
     text-transform: uppercase;
-    border-radius: 20px;
     border: none;
-    padding: 9px 16px;
+    padding: 15px 20px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: light;
     font-size: 16px;
-    color: rgb(87, 87, 87);
+    color:white;
+
+    background-color: #FF3B3F;
+    border: 1px solid transparent;
+    transition: background-color .2s, boder .2s, color .2s;
 }
 #bliMedlem:hover {
-    filter: brightness(0.8);
+    background-color: transparent;
+    border: 1px solid #FF3B3F;
+    color: #FF3B3F;
+    transition: .2s ease;
 }
 
+#background-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    height: 100%;
+    width: 1850px;
+    
+    z-index: -1;
 
+    background-image: url("../ressurser/background3.png");
+/*
+    width: 0;
+    height: 0;
+    border-bottom: 1300px solid red;
+    border-left: 1500px solid transparent;
+*/
+}
+
+.logo-wrapper{
+    position: absolute;
+    bottom: 75px;
+
+    height: auto;
+    width: auto;
+
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    margin-right: 15px;
+}
 
 /*Medlem*/
 .medlem-container{
