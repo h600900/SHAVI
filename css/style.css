@@ -6,7 +6,28 @@ body {
     
     font-family: 'Encode Sans Expanded', sans-serif;
 
+}
 
+select {
+    width: 225px;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    border-color: #EFEFEF;
+    font-size: 13px;
+    color: #343434;
+    background-color: #DADADA;
+}
+
+input {
+    padding: 15px 25px;
+    width: 225px;
+    border: 3px solid #DADADA;
+}
+
+input:hover{
+    background-color: #FF3B3F;
+    color: white;
+    transition: .2s ease;
 }
 
 .nav {
