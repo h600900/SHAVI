@@ -29,12 +29,6 @@ body {
 
     transition: color .2s;
 
-
-
-}
-
-.nav-right {
-    float: right;  
 }
 
 #nav-right {
@@ -131,13 +125,9 @@ body {
     z-index: -1;
 
     background-image: url("../ressurser/background3.png");
-/*
-    width: 0;
-    height: 0;
-    border-bottom: 1300px solid red;
-    border-left: 1500px solid transparent;
-*/
 }
+
+
 
 .logo-wrapper{
     position: absolute;
@@ -153,6 +143,7 @@ body {
     height: auto;
     margin-right: 15px;
 }
+
 
 /*Medlem*/
 .medlem-container{
