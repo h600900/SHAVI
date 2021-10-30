@@ -53,16 +53,29 @@ input:hover{
     transition: color .2s;
 
 }
-
 .nav-right {
     float: right;
 }
+/*
+.nav-right {
+    float: right;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color:white;
 
-#nav-right:hover{
     background-color: #FF3B3F;
-    color: white;
+    border: 1px solid transparent;
     transition: .2s ease;
+
 }
+
+.nav-right:hover{
+    background-color: transparent;
+    border-color: #FF3B3F;
+    transition: .2s ease;
+
+}*/
 
 .nav a:hover {
     color: #FF3B3F;
@@ -113,6 +126,7 @@ input:hover{
     
     margin-top: -30px;
     line-height: 30px;
+    margin-bottom: 40px;
 }
 
 .finnSted {
@@ -128,13 +142,12 @@ input:hover{
 
     background-color: #FF3B3F;
     border: 1px solid transparent;
-    transition: background-color .2s, boder .2s, color .2s;
+    transition: .2s ease;
 }
 #bliMedlem:hover {
     background-color: transparent;
     border: 1px solid #FF3B3F;
     color: #FF3B3F;
-    transition: .2s ease;
 }
 
 #background-image {
@@ -235,7 +248,24 @@ input:hover{
     background-color: #cecece;
 }
 
+.medlemskap-button {
+    text-decoration: none;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color:white;
 
+    background-color: #FF3B3F;
+    border: 1px solid transparent;
+    transition: .2s ease;;
+}
+
+.medlemskap-button:hover {
+    background-color: transparent;
+    border: 1px solid #FF3B3F;
+    color: #FF3B3F;
+}
 
 /*Bil/båt info*/
 .bil-baat-container {
