@@ -54,12 +54,8 @@ input:hover{
 
 }
 
-#nav-right {
+.nav-right {
     float: right;
-    font-weight: 100;
-    color: #FF3B3F;
-    border: 1px solid #FF3B3F;
-
 }
 
 #nav-right:hover{
@@ -97,10 +93,16 @@ input:hover{
 
 .tittel {
     font-size: 50px;
-    font-style: italic;
-    color: #FF3B3F;
+    color: #2A2A2A;
+    font-weight: 400;
+    margin-top: -35px;
+}
 
-    margin-top: 55px;
+.main-tittel {
+    font-weight: 600;
+    color: #FF3B3F;
+    margin-top: 25px;
+
 }
 
 .beskrivelse {
@@ -118,11 +120,9 @@ input:hover{
 }
 
 #bliMedlem {
-    text-transform: uppercase;
     border: none;
     padding: 15px 20px;
     cursor: pointer;
-    font-weight: light;
     font-size: 16px;
     color:white;
 
@@ -148,10 +148,13 @@ input:hover{
     z-index: -1;
 
     background-image: url("../ressurser/background3.png");
+    background-repeat: no-repeat;
+    float: right;
 }
 
 #background-element1 {
     position: absolute;
+    float: right;
     bottom: 0;
     left: -11%;
     
@@ -164,6 +167,7 @@ input:hover{
 
 #background-element2 {
     position: absolute;
+    float: right;
     bottom: 0;
     right: 0;
 
@@ -175,8 +179,8 @@ input:hover{
 }
 
 .logo-wrapper{
-    position: absolute;
-    bottom: 75px;
+    
+    margin-top: 170px;
 
     height: auto;
     width: auto;
@@ -201,6 +205,11 @@ input:hover{
     padding: 50px 30px;
 }
 
+#medlem-tekst h1 {
+    padding-bottom: 15px;
+    border-bottom: 3px solid #FF3B3F;
+}
+
 #medlem-abonnement-container {
     display: flex;
     flex-direction: row;
@@ -218,13 +227,9 @@ input:hover{
     font-size: 1.2rem;
     
 }
-.medlem-button{
-    margin-top: 350px;
-
-    padding: 15px 50px;
-    font-size: 1rem;
+.medlemskap-innhold {
+    margin-bottom: 350px;
 }
-
 
 #markert{
     background-color: #cecece;
@@ -264,16 +269,19 @@ input:hover{
 
 
 /*Biler og båter*/
-.bil-baat {
-    font-style: normal;
+.tabell-wrapper {
+    width: 100%;
+    height: 250px;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+
+    border-left: 5px solid #FF3B3F;
+    border-bottom: 1px solid black;
 }
 .tabell {
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 15px;
-}
-.tabell:last-child {
-    margin-bottom: 100px;
+    position: relative;
 }
 .tabell td, .tabell th {
     border: 1px solid rgb(87, 87, 87);
@@ -285,6 +293,12 @@ input:hover{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
+
+    position: sticky;
+    top: 0;
+
+    background-color: #FF3B3F;
+    color: #fff;
 }
 .tabell td {
     width: 25%;
@@ -295,10 +309,13 @@ input:hover{
     transition: 0.1s;
     padding: 5px;
     font-weight: 200;
+    text-decoration: underline;
+
 }
 .tabell td a:hover {
-    text-decoration: underline;
+    color: #FF3B3F;
 }
+
 
 
 /*Om oss*/
@@ -314,11 +331,7 @@ input:hover{
 
 
 /*steder*/
-.tittel-steder {
-    font-size: 50px;
-    font-style: italic;
-    color: black;
-}
+
 .sted-container {
     display: flex;
     width: 100%;
@@ -366,6 +379,7 @@ input:hover{
     font-size: 40px;
     margin-top: 100px;
 
+
     transform: translateY(180px);
 
     transition: 0.7s;
@@ -373,7 +387,6 @@ input:hover{
 
 .sted:hover > .sted-overskrift {
     transform: translateY(0px);
-    
 }
 
 .sted .info .navn {
