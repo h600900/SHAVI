@@ -9,30 +9,6 @@ body {
     overflow: hidden;
 }
 
-select {
-    width: 225px;
-    padding: 15px 25px;
-    margin-bottom: 10px;
-    border-color: #EFEFEF;
-    font-size: 13px;
-    color: #343434;
-    background-color: #DADADA;
-}
-
-input {
-    padding: 15px 25px;
-    width: 225px;
-    border: 3px solid #DADADA;
-    transition: .4s ease;
-
-}
-
-input:hover{
-    background-color: #FF3B3F;
-    color: white;
-    border-color: white;
-}
-
 .nav {
     overflow: hidden;
     padding: 20px 0px;
@@ -57,26 +33,6 @@ input:hover{
 .nav-right {
     float: right;
 }
-/*
-.nav-right {
-    float: right;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    color:white;
-
-    background-color: #FF3B3F;
-    border: 1px solid transparent;
-    transition: .2s ease;
-
-}
-
-.nav-right:hover{
-    background-color: transparent;
-    border-color: #FF3B3F;
-    transition: .2s ease;
-
-}*/
 
 .nav a:hover {
     color: #FF3B3F;
@@ -132,6 +88,30 @@ input:hover{
 
 .finnSted {
     margin-top: 60px;
+}
+
+.finnSted select {
+    width: 225px;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    border-color: #EFEFEF;
+    font-size: 13px;
+    color: #343434;
+    background-color: #DADADA;
+}
+
+.finnSted input {
+    padding: 15px 25px;
+    width: 225px;
+    border: 3px solid #DADADA;
+    transition: .4s ease;
+
+}
+
+.finnSted input:hover{
+    background-color: #FF3B3F;
+    color: white;
+    border-color: white;
 }
 
 #bliMedlem {
