@@ -9,8 +9,6 @@ body {
     overflow: hidden;
 }
 
-
-/*nav*/
 .nav {
     overflow: hidden;
     padding: 20px 0px;
@@ -63,8 +61,6 @@ body {
     padding: 40px 0px 0px 40px;
 }
 
-
-/*index*/
 .tittel {
     font-size: 50px;
     color: #2A2A2A;
@@ -92,43 +88,6 @@ body {
 
 .finnSted {
     margin-top: 60px;
-    color: rgb(87, 87, 87);
-    max-width: 285px;
-}
-.finnSted h3 {
-    text-transform: uppercase;
-    font-size: 18px;
-}
-.finnSted select {
-    padding: 9px 16px;
-    cursor: pointer;
-    border-radius: 30px;
-    background-color: #e7e7e7;
-    border: none;
-    width: 100%;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 13px;
-}
-.finnSted select:enabled {
-    outline: none;
-}
-.finnSted #by {
-    margin-top: 10px;
-}
-.finnSted input {
-    padding: 9px 16px;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 13px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    width: 100%;
-    background-color: #e7e7e7;
-}
-.finnSted select:hover, .finnSted input:hover {
-    filter: brightness(0.8);
 }
 
 .finnSted select {
@@ -160,16 +119,11 @@ body {
     padding: 15px 20px;
     cursor: pointer;
     font-size: 16px;
-<<<<<<< HEAD
-    color: rgb(87, 87, 87);
-    background-color: #e7e7e7;
-=======
     color:white;
 
     background-color: #FF3B3F;
     border: 1px solid transparent;
     transition: .2s ease;
->>>>>>> style
 }
 #bliMedlem:hover {
     background-color: transparent;
@@ -328,10 +282,6 @@ body {
 
 
 /*Biler og båter*/
-<<<<<<< HEAD
-.bil-baat {
-    font-style: normal;
-=======
 .tabell-wrapper {
     width: 100%;
     height: 250px;
@@ -340,19 +290,11 @@ body {
 
     border-left: 5px solid #FF3B3F;
     border-bottom: 1px solid black;
->>>>>>> style
 }
 .tabell {
     border-collapse: collapse;
     width: 100%;
-<<<<<<< HEAD
-    margin-bottom: 15px;
-}
-.tabell:last-child {
-    margin-bottom: 100px;
-=======
     position: relative;
->>>>>>> style
 }
 .tabell td, .tabell th {
     border: 1px solid rgb(87, 87, 87);
@@ -364,15 +306,12 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-<<<<<<< HEAD
-=======
 
     position: sticky;
     top: 0;
 
     background-color: #FF3B3F;
     color: #fff;
->>>>>>> style
 }
 .tabell td {
     width: 25%;
@@ -383,14 +322,6 @@ body {
     transition: 0.1s;
     padding: 5px;
     font-weight: 200;
-<<<<<<< HEAD
-}
-.tabell td a:hover {
-    text-decoration: underline;
-}
-
-
-=======
     text-decoration: underline;
 
 }
@@ -400,7 +331,6 @@ body {
 
 
 
->>>>>>> style
 /*Om oss*/
 .om-oss {
     font-style: normal;
@@ -414,54 +344,15 @@ body {
 
 
 /*steder*/
-<<<<<<< HEAD
-.steder {
-    font-style: normal;
-}
-.sted-container {
-    display: flex;
-    width: 100%;
-    margin-top: 50px;
-=======
 
 .sted-container {
     display: flex;
     width: 100%;
     margin-top: 10px;
->>>>>>> style
 }
 .sted {
     flex: 1;
     border: 1px solid rgb(87, 87, 87);
-<<<<<<< HEAD
-    margin: 0px 50px 0px 50px;
-    text-align: center;
-    height: 500px;
-    cursor: pointer;
-    color: rgb(87, 87, 87);
-}
-.sted h3 {
-    font-style: italic;
-    text-transform: uppercase;
-    font-size: 40px;
-    margin-top: 100px;
-}
-.sted .info {
-    visibility: visible;
-    opacity: 1;
-    transition: 0.3s ease;
-    font-size: 22px;
-    color: rgb(119, 119, 119);
-}
-/* .sted:hover .info {
-    visibility: visible;
-    opacity: 1;
-} */
-.sted:hover {
-    color: rgb(58, 58, 58);
-    border-color: rgb(58, 58, 58);
-}
-=======
     margin: 0px 20px 0px 20px;
     text-align: center;
     height: 60vh;
@@ -510,15 +401,11 @@ body {
     transform: translateY(0px);
 }
 
->>>>>>> style
 .sted .info .navn {
     color: rgb(58, 58, 58);
     margin-bottom: 20px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> style
 .sted .info p {
     margin: 4px 0px 4px 0px;
 }
