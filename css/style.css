@@ -206,6 +206,10 @@ body {
     border-bottom: 3px solid #FF3B3F;
 }
 
+#medlem-tekst h2 {
+    font-size: 19px;
+}
+
 #medlem-abonnement-container {
     display: flex;
     flex-direction: row;
