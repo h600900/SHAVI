@@ -120,9 +120,9 @@ body {
     cursor: pointer;
     font-size: 16px;
     color:white;
-    font-weight: 700;
+    font-weight: 900;
 
-    background-color: #FF3B3F;
+    background-color: #970003;
     border: 1px solid transparent;
     transition: .2s ease;
 }
