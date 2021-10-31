@@ -328,7 +328,17 @@ body {
 .tabell td a:hover {
     color: #FF3B3F;
 }
+.tabell th a {
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+    padding: 5px;
+    text-decoration: underline;
 
+}
+.tabell th a:hover {
+    color: black;
+}
 
 
 /*Om oss*/
