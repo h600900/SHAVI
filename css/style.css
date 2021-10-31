@@ -416,6 +416,7 @@ body {
     margin-bottom: 20px;
 }
 
-.sted .info p {
+.sted .info h4 {
     margin: 4px 0px 4px 0px;
+    font-weight: 200;
 }
