@@ -380,10 +380,9 @@ input:hover{
     color: rgb(87, 87, 87);
     overflow: hidden;
 
-}
+    background-repeat: no-repeat;
+    background-size: cover;
 
-.sted-bilde {
-    
 }
 
 .info {
