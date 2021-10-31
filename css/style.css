@@ -114,7 +114,7 @@ input:hover{
 .main-tittel {
     font-weight: 600;
     color: #FF3B3F;
-    margin-top: 25px;
+    margin-top: 3%;
 
 }
 
@@ -151,12 +151,12 @@ input:hover{
 }
 
 #background-image {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    top: 0;
     right: 0;
     
-    width: 1850px;
     height: 100%;
+    width: 100vw;
     
     z-index: -1;
 
@@ -166,7 +166,7 @@ input:hover{
 }
 
 #background-element1 {
-    position: absolute;
+    position: fixed;
     float: right;
     bottom: 0;
     left: -11%;
@@ -179,7 +179,7 @@ input:hover{
 }
 
 #background-element2 {
-    position: absolute;
+    position: fixed;
     float: right;
     bottom: 0;
     right: 0;
